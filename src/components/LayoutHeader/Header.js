@@ -56,7 +56,7 @@ const Header = ({ location }) => (
                     }}
                     to="/"
                 >
-                    <img src={logoSvg} alt="integrasio-logo" height="20"/>
+                    <img src={logoSvg} alt="integrasio-logo" height="28"/>
                     <span
                         css={{
                             color: colors.brandBlueDarker,
