@@ -15,6 +15,7 @@ const TitleAndMetaTags = ({ title, ogDescription, ogUrl }) => {
                 content={ogDescription || defaultDescription}
             />
             <meta property="fb:app_id" content="623268441017527" />
+            <link rel="icon" href="../../icons/favicon.ico" />
         </Helmet>
     )
 }
