@@ -64,7 +64,7 @@ const Home = () => (
             <Container>
               <h1
                 css={{
-                  color: colors.brand,
+                  color: colors.brandBlueDarker,
                   textAlign: 'center',
                   margin: 0,
                   fontSize: 45,
@@ -75,8 +75,26 @@ const Home = () => (
                   [media.greaterThan('xlarge')]: {
                     fontSize: 60,
                   },
-                }}>
-                Integrasio.com
+                }}
+              >
+                Integrasio
+                <span
+                  css={{
+                    color: colors.brand,
+                    textAlign: 'center',
+                    margin: 0,
+                    fontSize: 45,
+                    letterSpacing: '0.01em',
+                    [media.size('xsmall')]: {
+                      fontSize: 30,
+                    },
+                    [media.greaterThan('xlarge')]: {
+                      fontSize: 60,
+                    },
+                  }}
+                >
+                .com
+                </span>
               </h1>
               <p
                 css={{
